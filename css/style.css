@@ -1,0 +1,44 @@
+
+body, ul, p, li, h1, h2 {
+    margin: 0px;
+    
+}
+body{
+    font-family: sans-serif;
+}
+.menu li  {
+    display: inline-block;
+    padding: 20px 10px
+}
+.menu li a{
+    font-weight: 600;
+    color: chocolate
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.menu  {
+    text-align: center;
+    background-color: black
+    
+}
+
+.main {
+    max-width: 960;
+    margin: auto;
+}
+
+.p {
+    height: 100 px;
+}
+
+.menu1 {
+    text-align: center;
+    background-color: black;
+    color: chocolate;
+    font-weight: 600;
+    padding: 20px 10px;
+}
