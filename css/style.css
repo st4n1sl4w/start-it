@@ -1,29 +1,37 @@
-
 body, ul, p, li, h1, h2 {
-    margin: 0px;
-    
-}
-body{
+    margin: 0;   
+    padding: 0;
     font-family: sans-serif;
 }
-.menu li  {
-    display: inline-block;
-    padding: 20px 10px
+
+#container {
+    background-image: url("/img/connectwork.png");
+    text-align: center;
 }
-.menu li a{
+
+#content {
+    width: 640px;
+    margin: auto;
+    background-color: white;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.menu li a {
     font-weight: 600;
     color: chocolate
 }
 
 a {
     text-decoration: none;
-    
 }
 
-.menu  {
+.menu {
     text-align: center;
-    background-color: black
-    
+    background-color: black;
 }
 
 .main {
@@ -32,13 +40,18 @@ a {
 }
 
 .p {
-    height: 100 px;
+    float: right;
+    text-align: justify;
 }
 
-.menu1 {
+.title {
     text-align: center;
     background-color: black;
     color: chocolate;
     font-weight: 600;
     padding: 20px 10px;
+}
+
+#god {
+    width: 100%;
 }
