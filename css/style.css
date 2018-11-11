@@ -5,7 +5,7 @@ body, ul, p, li, h1, h2 {
 }
 
 #container {
-    background-image: url("/img/connectwork.png");
+    background-image: url("../img/connectwork.png");
     text-align: center;
 }
 
@@ -54,4 +54,39 @@ a {
 
 #god {
     width: 100%;
+    height: 340px;
+}
+
+
+
+div {
+   
+}
+img{
+height: 300px;
+    
+}
+
+
+
+.fhweri {
+ 
+}
+
+.mars  {
+    overflow: hidden;
+}
+.mars-right {
+    float: left;
+    width: 49%;
+    font-size: 20px;
+}
+
+.mars-foto {
+    width: 50%;
+    float: left;
+}
+
+.mars img {
+    max-width: 100%;
 }
